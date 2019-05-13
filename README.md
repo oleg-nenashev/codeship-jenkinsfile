@@ -1,9 +1,6 @@
 # Codeship running Jenkinsfiles 
 
-<img src='https://www.cloudbees.com/sites/default/files/codeship-by-cloudbees.png'>
-<img src='https://wiki.jenkins.io/download/attachments/2916393/logo.png'>
-
-Building on the good work by Kohsuke for one shot execution of Jenkinsfiles, this shows how to run Jenkinsfiles on Codeship Pro. 
+This shows how to run Jenkins Pipelines on Codeship Pro. 
 
 [![Codeship Status for oleg-nenashev/codeship-jenkinsfile](https://app.codeship.com/projects/4f8e6a60-4371-0137-df43-3657630956e0/status?branch=master)](https://app.codeship.com/projects/336616)
 
