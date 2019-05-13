@@ -5,11 +5,11 @@
 
 Building on the good work by Kohsuke for one shot execution of Jenkinsfiles, this shows how to run Jenkinsfiles on Codeship Pro. 
 
-[ ![Codeship Status for michaelneale/codeship-jenkinsfile](https://app.codeship.com/projects/2eaf07c0-04d0-0136-0999-0e7fdaa29a0c/status?branch=master)](https://app.codeship.com/projects/280572)
+[![Codeship Status for oleg-nenashev/codeship-jenkinsfile](https://app.codeship.com/projects/4f8e6a60-4371-0137-df43-3657630956e0/status?branch=master)](https://app.codeship.com/projects/336616)
 
 # How to use
 
-Clone this, do what you want. Customise the Dockerfile for build time dependencies and/or customise the base Jenkinsfile runner image as per instructions on https://github.com/kohsuke/jenkinsfile-runner/. Make sure to copy both codeship yml files, the Jenkinsfile and the Dockerfile into your project.
+Clone this, do what you want. Customise the Dockerfile for build time dependencies and/or customise the base Jenkinsfile runner image as per instructions on https://github.com/jenkinsci/jenkinsfile-runner/. Make sure to copy both codeship yml files, the Jenkinsfile and the Dockerfile into your project.
 
 # How it works
 
@@ -19,6 +19,6 @@ The Jenkinsfile runs the build in the container defined by the Dockerfile (so th
 
 The codeship-steps.yml defines the script that launches the Jenkinsfile runner.
 
-For a more complex example, see https://github.com/michaelneale/codeship-jenkinsfile-spring
+For a more complex example, see https://github.com/oleg-nenashev/mailer-plugin/tree/codeship-demo
 
 
