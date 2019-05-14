@@ -1,5 +1,4 @@
-projectConfig:
-  build:
-    image: organisation_name/project_name
-    dockerfile: Dockerfile
-  cached: true
+jenkinsfileRunner:
+  image: onenashev/ci.jenkins.io-runner:latest
+  volumes: 
+    - .:/workspace
