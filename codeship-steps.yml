@@ -1,3 +1,3 @@
 - name: Jenkinsfile
-  service: projectConfig
-  command: -f .
+  service: jenkinsfileRunner
+  command: -f /workspace
