@@ -1,4 +1,4 @@
 jenkinsfileRunner:
-  image: onenashev/ci.jenkins.io-runner:latest
+  image: jenkins4eval/jenkinsfile-runner:latest
   volumes: 
     - .:/workspace
